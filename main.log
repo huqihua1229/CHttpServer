@@ -1,0 +1,176 @@
+[LOG_DEBUG][2023.03.05 12:31:59][main@main.c:92] client(fd=6) 断开连接
+[LOG_DEBUG][2023.03.05 12:33:48][main@main.c:79] client(127.0.0.1:57496 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 12:33:48][main@main.c:104] 收到来自 client(fd=5) 的数据: GET / HTTP/1.1
+Host: localhost:1229
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-33dd2504=5998cad3-f427-4d08-9349-91d3f4b767db; BD_UPN=123353
+
+
+[LOG_DEBUG][2023.03.05 12:33:48][main@main.c:79] client(127.0.0.1:57510 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 12:34:12][main@main.c:92] client(fd=5) 断开连接
+[LOG_DEBUG][2023.03.05 12:34:17][main@main.c:104] 收到来自 client(fd=6) 的数据: GET / HTTP/1.1
+Host: localhost:1229
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-33dd2504=5998cad3-f427-4d08-9349-91d3f4b767db; BD_UPN=123353
+
+
+[LOG_DEBUG][2023.03.05 12:34:17][main@main.c:79] client(127.0.0.1:46118 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 12:35:11][main@main.c:92] client(fd=5) 断开连接
+[LOG_DEBUG][2023.03.05 12:35:11][main@main.c:92] client(fd=6) 断开连接
+[LOG_DEBUG][2023.03.05 12:35:23][main@main.c:50] epoll_wait() 失败
+[LOG_DEBUG][2023.03.05 22:25:27][main@main.c:86] client(127.0.0.1:38430 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 22:25:27][main@main.c:86] client(127.0.0.1:38440 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 22:25:41][main@main.c:99] client(fd=5) 断开连接
+[LOG_DEBUG][2023.03.05 22:27:52][main@main.c:86] client(127.0.0.1:60546 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 22:27:52][main@main.c:86] client(127.0.0.1:60548 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 22:32:39][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 22:32:44][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 22:33:40][main@main.c:86] client(127.0.0.1:46388 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 22:33:40][main@main.c:86] client(127.0.0.1:46398 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 22:55:12][main@main.c:86] client(127.0.0.1:34598 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 22:55:12][main@main.c:86] client(127.0.0.1:34604 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 23:03:53][main@main.c:86] client(127.0.0.1:42270 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 23:03:53][main@main.c:86] client(127.0.0.1:42272 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 23:09:45][main@main.c:86] client(127.0.0.1:49926 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 23:09:45][main@main.c:86] client(127.0.0.1:49942 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 23:10:56][parse_request@http_message.h:84] 读取到请求行: GET / HTTP/1.1
+[LOG_DEBUG][2023.03.05 23:18:10][main@main.c:86] client(127.0.0.1:59698 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 23:18:10][main@main.c:86] client(127.0.0.1:59704 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 23:18:10][parse_request@http_message.h:85] 读取到请求行: GET / HTTP/1.1
+[LOG_DEBUG][2023.03.05 23:18:38][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:43][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:44][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:45][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:46][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:47][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:48][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:50][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:51][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:52][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:53][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:18:54][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:19:55][main@main.c:86] client(127.0.0.1:40454 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 23:19:55][main@main.c:86] client(127.0.0.1:40456 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:86] 读取到请求行: GET / HTTP/1.1
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-alive
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7Sec-Fetch-Site: none
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7Sec-Fetch-Site: noneSec-Fetch-Mode: navigate
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7Sec-Fetch-Site: noneSec-Fetch-Mode: navigateSec-Fetch-User: ?1
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7Sec-Fetch-Site: noneSec-Fetch-Mode: navigateSec-Fetch-User: ?1Sec-Fetch-Dest: document
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7Sec-Fetch-Site: noneSec-Fetch-Mode: navigateSec-Fetch-User: ?1Sec-Fetch-Dest: documentAccept-Encoding: gzip, deflate, br
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7Sec-Fetch-Site: noneSec-Fetch-Mode: navigateSec-Fetch-User: ?1Sec-Fetch-Dest: documentAccept-Encoding: gzip, deflate, brAccept-Language: zh-CN,zh;q=0.9
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7Sec-Fetch-Site: noneSec-Fetch-Mode: navigateSec-Fetch-User: ?1Sec-Fetch-Dest: documentAccept-Encoding: gzip, deflate, brAccept-Language: zh-CN,zh;q=0.9Cookie: Idea-33dd2504=5998cad3-f427-4d08-9349-91d3f4b767db; BD_UPN=123353
+[LOG_DEBUG][2023.03.05 23:19:55][parse_request@http_message.h:100] 读取到请求头部: GET / HTTP/1.1Host: localhost:1229Connection: keep-aliveCache-Control: max-age=0sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"sec-ch-ua-mobile: ?0sec-ch-ua-platform: "Linux"Upgrade-Insecure-Requests: 1User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7Sec-Fetch-Site: noneSec-Fetch-Mode: navigateSec-Fetch-User: ?1Sec-Fetch-Dest: documentAccept-Encoding: gzip, deflate, brAccept-Language: zh-CN,zh;q=0.9Cookie: Idea-33dd2504=5998cad3-f427-4d08-9349-91d3f4b767db; BD_UPN=123353
+[LOG_DEBUG][2023.03.05 23:22:07][main@main.c:86] client(127.0.0.1:59874 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 23:22:07][main@main.c:86] client(127.0.0.1:59878 fd=6) 连接成功
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:86] 读取到请求行: GET / HTTP/1.1
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Host: localhost:1229
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Connection: keep-alive
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Cache-Control: max-age=0
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua-mobile: ?0";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua-platform: "Linux"0", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Upgrade-Insecure-Requests: 1", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Site: noneplication/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Mode: navigateation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-User: ?1vigateation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Dest: documentation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Accept-Encoding: gzip, deflate, brl+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Accept-Language: zh-CN,zh;q=0.9 brl+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: Cookie: Idea-33dd2504=5998cad3-f427-4d08-9349-91d3f4b767db; BD_UPN=123353image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:22:07][parse_request@http_message.h:104] 读取到请求头部: 
+[LOG_DEBUG][2023.03.05 23:26:42][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:44][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:45][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:45][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:46][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:47][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:48][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:49][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:50][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:51][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:52][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:53][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:54][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:55][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:56][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:57][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:57][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:58][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:26:59][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:27:09][main@main.c:23] bind() 失败
+[LOG_DEBUG][2023.03.05 23:27:17][main@main.c:86] client(127.0.0.1:59360 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:86] 读取到请求行: GET / HTTP/1.1
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Host: localhost:1228
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Connection: keep-alive
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua-mobile: ?0";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua-platform: "Linux"0", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Upgrade-Insecure-Requests: 1", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Site: noneplication/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Mode: navigateation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-User: ?1vigateation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Dest: documentation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Accept-Encoding: gzip, deflate, brl+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Accept-Language: zh-CN,zh;q=0.9 brl+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: Cookie: Idea-33dd2504=5998cad3-f427-4d08-9349-91d3f4b767db; BD_UPN=123353image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:27:17][parse_request@http_message.h:104] 读取到请求头部: 
+[LOG_DEBUG][2023.03.05 23:35:57][main@main.c:86] client(127.0.0.1:58394 fd=5) 连接成功
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:86] 读取到请求行: GET / HTTP/1.1
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Host: localhost:1229
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Connection: keep-alive
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua-mobile: ?0";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: sec-ch-ua-platform: "Linux"0", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Upgrade-Insecure-Requests: 1", "Not A(Brand";v="24", "Google Chrome";v="110"
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Sec-Purpose: prefetch;prerenderinux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Purpose: prefetchetch;prerenderinux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Site: noneplication/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Mode: navigateation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-User: ?1vigateation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Sec-Fetch-Dest: documentation/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Accept-Encoding: gzip, deflate, brl+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Accept-Language: zh-CN,zh;q=0.9 brl+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: Cookie: Idea-33dd2504=5998cad3-f427-4d08-9349-91d3f4b767db; BD_UPN=123353image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:104] 读取到请求头部: 
+[LOG_DEBUG][2023.03.05 23:35:57][parse_request@http_message.h:110] 请求头部解析结束
