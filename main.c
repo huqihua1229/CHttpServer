@@ -31,7 +31,8 @@ int main(int argc, char *argv[]){
     }
 
     //创建客户端消息数组
-    struct HttpMessage clients[MAX_CLIENTS];
+    struct HttpRequest clients[MAX_CLIENTS];
+
 
     //创建 epoll 描述符
     int epollfd = epoll_create(1);
@@ -81,7 +82,8 @@ int main(int argc, char *argv[]){
                 epoll_ctl(epollfd, EPOLL_CTL_ADD, client_sock, &ev);
 
                 //刷新 fd 对应的连接信息
-                init_http_message(clients + client_sock);
+                init_http_request(clients + client_sock, client_sock);
+                
 
                 LOG("LOG_DEBUG", "client(%s:%d fd=%ld) 连接成功", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port), client_sock);
 
@@ -107,22 +109,6 @@ int main(int argc, char *argv[]){
                     continue;
                 }
                 
-                //对报文内容进行处理
-                // LOG("LOG_DEBUG", "收到来自 client(fd=%ld) 的数据: %s", events[i].data.fd, buffer);
-                // //向浏览器发送 http 响应报文
-                // FILE *fp = NULL;
-                // char file_buffer[1024];
-                // if((fp = fopen("response.txt", "r")) == NULL){
-                //     LOG("LOG_DEBUG", "打开文件 /response.txt 失败");
-                //     close(events[i].data.fd);
-                //     continue;
-                // }
-
-                // int file_readn;
-                // while( fgets(file_buffer, sizeof(buffer), fp) != NULL){
-                //     write(events[i].data.fd, file_buffer, strlen(file_buffer));
-                // }
-                // fclose(fp);
                 do_request(clients + events[i].data.fd);
 
                 continue;
