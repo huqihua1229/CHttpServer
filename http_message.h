@@ -3,8 +3,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-#define MAX_BUFFER_SIZE 1024
-#define MAX_LINE_SIZE 1024
+#define MAX_BUFFER_SIZE 256
+#define MAX_LINE_SIZE 256
 
 enum MessageParseState {    //报文解析的阶段
     PARSE_REQUEST_LINE,     //正在解析请求行
@@ -65,12 +65,14 @@ void line_read_from_buffer(struct HttpMessage *message){
     if(end_p == NULL){
         //当前 buffer 中没有 /r/n，直接全部写入到 line 中(这里未考虑到一行超过 MAX_LINE_SIZE 字节的情况)
         strncpy(message->line + message->line_write_index, message->buffer + message->buffer_read_index, (message->buffer_write_index - message->buffer_read_index)/sizeof(char));
+        //更新 line_write_index
+        message->line_write_index += (message->buffer_write_index - message->buffer_read_index)/sizeof(char);
         //清空 buffer
         memset(message->buffer, 0 ,MAX_BUFFER_SIZE);
         //更新 buffer_read_index
         message->buffer_read_index = 0;
-        //更新 line_write_index
-        message->line_write_index = 0;
+        //更新 buffer_write_index
+        message->buffer_write_index = 0;
     }else{
         //当前 buffer 中有 /r/n，将 /r/n 之前的字符写入到 line 中
         int read_count = (end_p - (message->buffer + message->buffer_read_index))/sizeof(char);
@@ -122,7 +124,7 @@ void parse_request(struct HttpMessage *message){
                 strcpy(message->http_version, message->line + message->line_read_index);
 
                 //清空行数据
-                memset(message->line, 0, sizeof(MAX_LINE_SIZE));
+                memset(message->line, 0, MAX_LINE_SIZE);
                 //更新 line_read_index
                 message->line_read_index = 0;
                 //更新 line_write_index
@@ -154,9 +156,11 @@ void parse_request(struct HttpMessage *message){
                 }
 
                 //清空行数据
-                memset(message->line, 0, sizeof(MAX_LINE_SIZE));
+                memset(message->line, 0, MAX_LINE_SIZE);
                 //更新 line_write_index
                 message->line_write_index = 0;
+                //更新 line_read_index
+                message->line_read_index = 0;
                 //更新行解析状态
                 message->line_receive_state = LINE_RECEIVE_NOT_FINISHED;
             }
@@ -169,3 +173,18 @@ void parse_request(struct HttpMessage *message){
         }
     }
 };
+
+
+void do_response(){
+
+}
+
+void do_request(struct HttpMessage *message){
+    if(message->message_parse_state != PARSE_FINISHED){
+        parse_request(message);
+    }
+
+    if(message->message_parse_state == PARSE_FINISHED){
+        do_response();
+    }
+}

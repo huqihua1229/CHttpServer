@@ -123,7 +123,7 @@ int main(int argc, char *argv[]){
                 //     write(events[i].data.fd, file_buffer, strlen(file_buffer));
                 // }
                 // fclose(fp);
-                parse_request(clients + events[i].data.fd);
+                do_request(clients + events[i].data.fd);
 
                 continue;
             }
