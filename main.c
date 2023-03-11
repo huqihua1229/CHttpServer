@@ -82,7 +82,7 @@ int main(int argc, char *argv[]){
                 epoll_ctl(epollfd, EPOLL_CTL_ADD, client_sock, &ev);
 
                 //刷新 fd 对应的连接信息
-                init_http_request(clients + client_sock, client_sock);
+                init_http_connection(clients + client_sock, client_sock);
                 
 
                 LOG("LOG_DEBUG", "client(%s:%d fd=%ld) 连接成功", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port), client_sock);
@@ -109,7 +109,7 @@ int main(int argc, char *argv[]){
                     continue;
                 }
                 
-                do_request(clients + events[i].data.fd);
+                process(clients + events[i].data.fd);
 
                 continue;
             }
