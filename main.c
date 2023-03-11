@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "http_request.h"
+#include "http_connection.c"
 
 #define MAXEVENTS 10
 #define MAX_CLIENTS 10
@@ -31,7 +31,7 @@ int main(int argc, char *argv[]){
     }
 
     //创建客户端消息数组
-    struct HttpRequest clients[MAX_CLIENTS];
+    struct HttpConnection clients[MAX_CLIENTS];
 
 
     //创建 epoll 描述符
